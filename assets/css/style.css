@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Yellowtail&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.font {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #737B9A;
+    padding-top: 122px;
+}
+
+.font1 {
+    font-family: 'Yellowtail', sans-serif;
+    font-size: 78px;
+    font-weight: 400;
+    text-align: center;
+    color: #252930;
+    padding-top: 10px;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-items {
+    align-items: center;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+
+.btn {
+    padding: 8px 15px 8px 15px;
+    border-radius: 74px;
+    border: 2px solid #4D73F8;
+    background: #4D73F8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffff;
+    border: none;
+}
+
+.font2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #737B9A;
+    padding-top: 10px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.card {
+    width: 700px;
+    height: 450px;
+    box-shadow: 0px 13px 50px 0px #737B9A33;
+    border-radius: 10px;
+    background: #ffff;
+    overflow: hidden;
+
+}
+
+.flex-colum {
+    flex-direction: column;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pos-abs2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pos-abs3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.pos-abs4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pos-abs5 {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z_-1 {
+    z-index: -1;
+}
